@@ -1,0 +1,52 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+
+# Directory for storing Terraform provider plugins
+.terraform/
+
+# Local environment variables
+.env
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+*.log
+*.sublime-project
+*.sublime-workspace
+
+# Compiled code
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+# it's better to unpack these files locally before use
+*.tar
+*.gz
+*.zip
+*.7z
+
+# Node modules
+node_modules/
